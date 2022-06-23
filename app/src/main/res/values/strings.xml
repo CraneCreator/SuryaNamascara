@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SuryaNamascara</string>
+    <string name="image_view_content_descr">image_view_content_descr</string>
+    <string name="auto_scroll_btn_text_vert">AUTO SCROLL</string>
+    <string name="auto_scroll_btn_text_hori">A\nU\nT\nO\n \nS\nC\nR\nO\nL\nL</string>
+    <string name="timer_image_button">timer_image_button</string>
+    <string name="confirm_btn_text">Confirm</string>
+    <string name="cancel_btn_text">Cancel</string>
+    <string name="hint_enter_timer_value">Enter Timer value in seconds</string>
+    <string name="preference_file_key">suraSettings</string>
+    <string name="autoscroll_button_name_in_end_of_list_vert">Restart</string>
+    <string name="autoscroll_button_name_in_end_of_list_hori">R\ne\ns\nt\na\nr\nt</string>
+</resources>

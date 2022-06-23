@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="240dp"
+    android:background="#1D90EC"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_timer"
+        android:layout_width="320dp"
+        android:layout_height="120dp"
+        android:autofillHints=""
+        android:digits="0123456789"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="2"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/confirm_btn_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_timer" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/cancel_btn_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_confirm"
+        app:layout_constraintTop_toBottomOf="@+id/edit_timer" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
