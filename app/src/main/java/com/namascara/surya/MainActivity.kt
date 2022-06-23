@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
 
         progressBar = findViewById(R.id.progress_bar)
 
-        // To get swipe event of viewpager2
+        // Viewpager2 - более продвинутая версия RecyclerView, для работы с элементами адаптера
         viewPager2?.registerOnPageChangeCallback(object : OnPageChangeCallback() {
             override fun onPageSelected(position: Int) {
                 super.onPageSelected(position)

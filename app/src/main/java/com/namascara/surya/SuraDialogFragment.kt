@@ -63,7 +63,7 @@ class SuraDialogFragment : androidx.fragment.app.DialogFragment(), View.OnClickL
         if (sharedPref != null) {
             // TODO ??? примерно понимаю, что редактируется переменная "sharedPref",
             // но что такое "with" и зачем оно здесь, так и не понял, вроде "with" для множественных операций
-            // вычитал, что with запускает код в лямбде, но ничего не ждёт в ответ, просто "выполните этот код" ???
+            // вычитал, что with запускает код в лямбде, но ничего не ждёт в ответ, просто "выполните этот код". ???
             with(sharedPref.edit()) {
                 // в timerMillis записывается число секунд, введённое юзером в поле "timerValue"
                 val timerMillis = timerValue?.text.toString().toLong() * 1000
