@@ -1,4 +1,4 @@
 package com.namascara.surya
 
-data class Asana(val asanImage: Int, val asanText: String)
+data class Asana(val asanaImage: Int, val asanaText: String)
 

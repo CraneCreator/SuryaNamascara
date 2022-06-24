@@ -15,8 +15,8 @@ internal class ViewPager2Adapter(private val ctx: Context) : RecyclerView.Adapte
     // This method binds the screen with the view
     override fun onBindViewHolder(holder: AsanaHolder, position: Int) {
         // This will set the images in imageview
-        holder.holdAsansImage.setImageResource(asanaLists[position].asanImage)
-        holder.holdAsansText.text = asanaLists[position].asanText
+        holder.holdAsansImage.setImageResource(asanaLists[position].asanaImage)
+        holder.holdAsansText.text = asanaLists[position].asanaText
         holder.posNumber.text = (position + 1).toString()
     }
 
